@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+}
+.header h1{
+    color: yellow;
+    
+}
+.header-menu{
+    display: flex;
+    gap: 10px;
+    color: yellow;
+}
+li{
+    list-style: none;
+    gap: 10px;
+}

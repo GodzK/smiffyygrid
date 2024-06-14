@@ -1,0 +1,19 @@
+.Hero-container{
+    display: grid;
+    grid-template-rows: 180px 180px ;
+    grid-template-columns: 210px 350px 210px;
+    justify-content: space-between;
+}
+.button-hero{
+    background-color: yellow;
+    width: 150px;
+    height: 70px;
+}
+h1,p {
+    color: yellow;
+    margin-left: 18px;
+}
+.pkremove{
+    width: 85%;
+    border: 2px solid yellow;
+}
