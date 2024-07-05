@@ -1,0 +1,39 @@
+.story{
+    padding: 3rem;
+}
+.story-header h1{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 10vh;
+    animation: jooKrooFirst;
+    animation-timeline: view();
+}
+@keyframes jooKrooFirst {
+    from {
+        opacity: 0;
+        transform: translateY(0) scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(100) scale(0);
+    }
+}
+.substory{
+    display: grid;
+    grid-template-areas: 
+    " pic1  item1 ";
+    justify-content: center;
+    gap: 50vh;
+    animation: jooKrooFirst;
+    animation-timeline: view();
+}
+.substory2{
+    display: grid;
+    grid-template-areas: 
+    " pic1  item1 ";
+    justify-content: center;
+    gap: 50vh;
+    animation: jooKrooFirst;
+    animation-timeline: view();
+}

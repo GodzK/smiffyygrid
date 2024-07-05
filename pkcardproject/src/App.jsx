@@ -9,6 +9,7 @@ import ba7 from "./images/ba7.png";
 import Navbar from "./components/Nav"
 import Hero from "./components/Hero";
 import Imageslide from "./components/Imageslide";
+import Story from "./components/story"
 function App() {
   return (
     <>
@@ -42,7 +43,7 @@ function App() {
       </div>
      <Imageslide/>
     </div>
-     
+     <Story/>
     </>
   );
 }
