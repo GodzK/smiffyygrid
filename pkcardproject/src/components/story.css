@@ -12,11 +12,11 @@
 @keyframes jooKrooFirst {
     from {
         opacity: 0;
-        transform: translateY(0) scale(0.3);
+        transform: translateY(0) scale(0.5);
     }
     to{
         opacity: 1;
-        transform: translateY(100) scale(0);
+        transform: translateY(70) scale(0);
     }
 }
 .substory{
@@ -27,13 +27,17 @@
     gap: 50vh;
     animation: jooKrooFirst;
     animation-timeline: view();
+   padding-bottom: 10%;
 }
 .substory2{
     display: grid;
     grid-template-areas: 
-    " pic1  item1 ";
+    " pic2  item2 ";
     justify-content: center;
     gap: 50vh;
     animation: jooKrooFirst;
     animation-timeline: view();
+}
+.pic1 img{
+    width: 200px;
 }

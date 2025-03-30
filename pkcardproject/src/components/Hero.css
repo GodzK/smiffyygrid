@@ -4,10 +4,21 @@
     grid-template-columns: 210px 350px 210px;
     justify-content: space-between;
 }
+
 .button-hero{
     background-color: yellow;
     width: 150px;
     height: 70px;
+}
+.button-hero:hover{
+    background-color: rgb(148, 148, 148);
+    width: 150px;
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 h1,p {
     color: yellow;
@@ -16,4 +27,18 @@ h1,p {
 .pkremove{
     width: 85%;
     border: 2px solid yellow;
+}
+.image-rotate {
+    width: 70%;
+    animation-name: rotatecapybara;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes rotatecapybara {
+   to{
+    transform: rotate(360deg);
+   }
 }
